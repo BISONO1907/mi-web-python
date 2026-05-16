@@ -5,7 +5,7 @@ import json
 import os
 
 app = Flask(__name__)
-app.secret_key = 'J3uRY_2026_SUPER_PRIVATE_KEY_!@#'
+app.secret_key = 'tu_clave_secreta_super_segura_2026'
 
 # Base de datos simulada (en producción usar SQLite/PostgreSQL)
 usuarios = {
@@ -22,7 +22,7 @@ articulos_blog = [
     {
         'id': 1,
         'titulo': 'Cómo ahorrar dinero en 2026',
-        'autor': 'Scotiabank',
+        'autor': 'Grupo 4',
         'fecha': '2026-05-15',
         'contenido': 'Descubre las mejores estrategias para ahorrar dinero durante este año...',
         'imagen': '💰'
@@ -256,7 +256,7 @@ TEMPLATE_INDEX = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scotiabank Chile - Banca Digital</title>
+    <title>Grupo 4</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; }
@@ -364,7 +364,7 @@ TEMPLATE_INDEX = '''
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">SCOTIABANK</div>
+            <div class="logo">GRUPO 4</div>
             <nav>
                 <a href="/">Inicio</a>
                 <a href="/blog">Blog</a>
@@ -378,7 +378,7 @@ TEMPLATE_INDEX = '''
 
     <section class="hero">
         <div class="container">
-            <h1>Tu banco digital en tus manos</h1>
+            <h1>GRUPO 4</h1>
             <p>Accede a tus cuentas, realiza transferencias y gestiona tus inversiones desde cualquier lugar</p>
             <div class="hero-buttons">
                 <button class="btn btn-primary" onclick="window.location.href='/registro'">Registrarse</button>
@@ -432,7 +432,7 @@ TEMPLATE_INDEX = '''
     </section>
 
     <footer>
-        <p>&copy; 2026 Scotiabank Chile. Todos los derechos reservados.</p>
+        <p>&copy; 2026 Grupo 4 Chile. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
@@ -444,7 +444,7 @@ TEMPLATE_LOGIN = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Sesión - Scotiabank</title>
+    <title>Iniciar Sesión - Grupo 4</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; }
@@ -534,7 +534,7 @@ TEMPLATE_LOGIN = '''
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">SCOTIABANK</div>
+            <div class="logo">GRUPO 4</div>
         </div>
     </header>
 
@@ -613,7 +613,7 @@ TEMPLATE_REGISTRO = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro - Scotiabank</title>
+    <title>Registro - Grupo 4</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; }
@@ -697,7 +697,7 @@ TEMPLATE_REGISTRO = '''
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">SCOTIABANK</div>
+            <div class="logo">GRUPO 4</div>
         </div>
     </header>
 
@@ -782,7 +782,7 @@ TEMPLATE_DASHBOARD = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - Scotiabank</title>
+    <title>Dashboard - Grupo 4</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; }
@@ -867,7 +867,7 @@ TEMPLATE_DASHBOARD = '''
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">SCOTIABANK</div>
+            <div class="logo">GRUPO 4</div>
             <nav>
                 <a href="/">Inicio</a>
                 <a href="/blog">Blog</a>
@@ -918,7 +918,7 @@ TEMPLATE_CALCULADORA_PRESTAMOS = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Préstamos - Scotiabank</title>
+    <title>Calculadora de Préstamos - Grupo 4</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; }
@@ -1011,7 +1011,7 @@ TEMPLATE_CALCULADORA_PRESTAMOS = '''
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">SCOTIABANK</div>
+            <div class="logo">GRUPO 4</div>
             <nav>
                 <a href="/">Inicio</a>
                 <a href="/dashboard">Dashboard</a>
@@ -1108,7 +1108,7 @@ TEMPLATE_COTIZADOR_SEGUROS = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cotizador de Seguros - Scotiabank</title>
+    <title>Cotizador de Seguros - Grupo 4</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; }
@@ -1223,7 +1223,7 @@ TEMPLATE_COTIZADOR_SEGUROS = '''
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">SCOTIABANK</div>
+            <div class="logo">GRUPO 4</div>
             <nav>
                 <a href="/">Inicio</a>
                 <a href="/dashboard">Dashboard</a>
@@ -1329,7 +1329,7 @@ TEMPLATE_BLOG = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog - Scotiabank</title>
+    <title>Blog - Grupo 4</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; }
@@ -1406,7 +1406,7 @@ TEMPLATE_BLOG = '''
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">SCOTIABANK</div>
+            <div class="logo">GRUPO 4</div>
             <nav>
                 <a href="/">Inicio</a>
                 <a href="/dashboard">Dashboard</a>
@@ -1441,7 +1441,7 @@ TEMPLATE_ARTICULO = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ articulo.titulo }} - Scotiabank</title>
+    <title>{{ articulo.titulo }} - Grupo 4</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; }
@@ -1504,7 +1504,7 @@ TEMPLATE_ARTICULO = '''
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">SCOTIABANK</div>
+            <div class="logo">GRUPO 4</div>
             <nav>
                 <a href="/">Inicio</a>
                 <a href="/blog">Blog</a>
@@ -1536,7 +1536,7 @@ TEMPLATE_SIMULADOR_INVERSIONES = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulador de Inversiones - Scotiabank</title>
+    <title>Simulador de Inversiones - Grupo 4</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; }
@@ -1657,7 +1657,7 @@ TEMPLATE_SIMULADOR_INVERSIONES = '''
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">SCOTIABANK</div>
+            <div class="logo">GRUPO 4</div>
             <nav>
                 <a href="/">Inicio</a>
                 <a href="/dashboard">Dashboard</a>
@@ -1765,4 +1765,4 @@ TEMPLATE_SIMULADOR_INVERSIONES = '''
 '''
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=8080, debug=False)
+    app.run(debug=True, port=5000)
