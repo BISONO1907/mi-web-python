@@ -22,7 +22,7 @@ articulos_blog = [
     {
         'id': 1,
         'titulo': 'Cómo ahorrar dinero en 2026',
-        'autor': 'Scotiabank',
+        'autor': 'GRUPO 4',
         'fecha': '2026-05-15',
         'contenido': 'Descubre las mejores estrategias para ahorrar dinero durante este año...',
         'imagen': '💰'
@@ -256,13 +256,13 @@ TEMPLATE_INDEX = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scotiabank Chile - Banca Digital</title>
+    <title>GRUPO 4 - Banca Digital</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; }
         
         header {
-            background: linear-gradient(135deg, #004a97 0%, #003d7a 100%);
+            background: linear-gradient(135deg, #d90000 0%, #a00000 100%);
             color: white;
             padding: 16px 0;
             position: sticky;
@@ -290,7 +290,7 @@ TEMPLATE_INDEX = '''
         .nav-cta:hover { background: #e55a24; }
         
         .hero {
-            background: linear-gradient(135deg, #004a97 0%, #0066cc 100%);
+            background: linear-gradient(135deg, #d90000 0%, #ff1a1a 100%);
             color: white;
             padding: 80px 20px;
             text-align: center;
@@ -316,7 +316,7 @@ TEMPLATE_INDEX = '''
         .btn-primary { background: #ff6b35; color: white; }
         .btn-primary:hover { background: #e55a24; transform: translateY(-2px); }
         
-        .btn-secondary { background: white; color: #004a97; border: 2px solid white; }
+        .btn-secondary { background: white; color: #d90000; border: 2px solid white; }
         .btn-secondary:hover { background: transparent; color: white; }
         
         .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
@@ -342,7 +342,7 @@ TEMPLATE_INDEX = '''
         }
         
         .feature-card:hover { transform: translateY(-4px); }
-        .feature-card h3 { color: #004a97; margin-bottom: 12px; }
+        .feature-card h3 { color: #d90000; margin-bottom: 12px; }
         .feature-card .icon { font-size: 40px; margin-bottom: 16px; }
         
         footer {
@@ -364,7 +364,7 @@ TEMPLATE_INDEX = '''
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">SCOTIABANK</div>
+            <div class="logo">GRUPO 4</div>
             <nav>
                 <a href="/">Inicio</a>
                 <a href="/blog">Blog</a>
@@ -378,8 +378,8 @@ TEMPLATE_INDEX = '''
 
     <section class="hero">
         <div class="container">
-            <h1>Tu banco digital en tus manos</h1>
-            <p>Accede a tus cuentas, realiza transferencias y gestiona tus inversiones desde cualquier lugar</p>
+            <h1>GRUPO 4</h1>
+            <p>Davesky Valery Camila Widelvis Rafael Anfitrion Jeury</p>
             <div class="hero-buttons">
                 <button class="btn btn-primary" onclick="window.location.href='/registro'">Registrarse</button>
                 <button class="btn btn-secondary" onclick="window.location.href='/dashboard'">Acceder</button>
@@ -389,7 +389,7 @@ TEMPLATE_INDEX = '''
 
     <section class="features">
         <div class="container">
-            <h2 style="text-align: center; color: #004a97; margin-bottom: 50px; font-size: 36px;">Nuestras Herramientas</h2>
+            <h2 style="text-align: center; color: #d90000; margin-bottom: 50px; font-size: 36px;">Nuestras Herramientas</h2>
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="icon">🧮</div>
@@ -432,7 +432,7 @@ TEMPLATE_INDEX = '''
     </section>
 
     <footer>
-        <p>&copy; 2026 Scotiabank Chile. Todos los derechos reservados.</p>
+        <p>&copy; 2026 GRUPO 4. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
@@ -444,13 +444,13 @@ TEMPLATE_LOGIN = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Sesión - Scotiabank</title>
+    <title>Iniciar Sesión - GRUPO 4</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; }
         
         header {
-            background: linear-gradient(135deg, #004a97 0%, #003d7a 100%);
+            background: linear-gradient(135deg, #d90000 0%, #a00000 100%);
             color: white;
             padding: 16px 0;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -472,7 +472,7 @@ TEMPLATE_LOGIN = '''
             box-shadow: 0 2px 12px rgba(0,0,0,0.1);
         }
         
-        .login-box h1 { color: #004a97; margin-bottom: 30px; text-align: center; font-size: 28px; }
+        .login-box h1 { color: #d90000; margin-bottom: 30px; text-align: center; font-size: 28px; }
         
         .form-group {
             margin-bottom: 20px;
@@ -496,7 +496,7 @@ TEMPLATE_LOGIN = '''
         
         input:focus {
             outline: none;
-            border-color: #004a97;
+            border-color: #d90000;
             box-shadow: 0 0 0 3px rgba(0,74,151,0.1);
         }
         
@@ -521,7 +521,7 @@ TEMPLATE_LOGIN = '''
         }
         
         .signup-link a {
-            color: #004a97;
+            color: #d90000;
             text-decoration: none;
             font-weight: 600;
         }
@@ -534,7 +534,7 @@ TEMPLATE_LOGIN = '''
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">SCOTIABANK</div>
+            <div class="logo">GRUPO 4</div>
         </div>
     </header>
 
@@ -613,13 +613,13 @@ TEMPLATE_REGISTRO = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro - Scotiabank</title>
+    <title>Registro - GRUPO 4</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; }
         
         header {
-            background: linear-gradient(135deg, #004a97 0%, #003d7a 100%);
+            background: linear-gradient(135deg, #d90000 0%, #a00000 100%);
             color: white;
             padding: 16px 0;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -641,7 +641,7 @@ TEMPLATE_REGISTRO = '''
             box-shadow: 0 2px 12px rgba(0,0,0,0.1);
         }
         
-        .registro-box h1 { color: #004a97; margin-bottom: 30px; text-align: center; font-size: 28px; }
+        .registro-box h1 { color: #d90000; margin-bottom: 30px; text-align: center; font-size: 28px; }
         
         .form-group { margin-bottom: 20px; }
         
@@ -662,7 +662,7 @@ TEMPLATE_REGISTRO = '''
         
         input:focus {
             outline: none;
-            border-color: #004a97;
+            border-color: #d90000;
         }
         
         .btn {
@@ -684,7 +684,7 @@ TEMPLATE_REGISTRO = '''
         }
         
         .login-link a {
-            color: #004a97;
+            color: #d90000;
             text-decoration: none;
             font-weight: 600;
         }
@@ -697,7 +697,7 @@ TEMPLATE_REGISTRO = '''
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">SCOTIABANK</div>
+            <div class="logo">GRUPO 4</div>
         </div>
     </header>
 
@@ -782,13 +782,13 @@ TEMPLATE_DASHBOARD = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - Scotiabank</title>
+    <title>Dashboard - GRUPO 4</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; }
         
         header {
-            background: linear-gradient(135deg, #004a97 0%, #003d7a 100%);
+            background: linear-gradient(135deg, #d90000 0%, #a00000 100%);
             color: white;
             padding: 16px 0;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -818,7 +818,7 @@ TEMPLATE_DASHBOARD = '''
         .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
         
         .welcome { padding: 20px; background: white; margin-bottom: 20px; border-radius: 8px; }
-        .welcome h1 { color: #004a97; margin-bottom: 10px; }
+        .welcome h1 { color: #d90000; margin-bottom: 10px; }
         
         .dashboard-grid {
             display: grid;
@@ -834,7 +834,7 @@ TEMPLATE_DASHBOARD = '''
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
         
-        .card h3 { color: #004a97; margin-bottom: 12px; }
+        .card h3 { color: #d90000; margin-bottom: 12px; }
         .card .amount { font-size: 32px; font-weight: bold; color: #ff6b35; }
         .card p { color: #666; font-size: 14px; }
         
@@ -853,12 +853,12 @@ TEMPLATE_DASHBOARD = '''
             cursor: pointer;
             transition: all 0.3s;
             text-decoration: none;
-            color: #004a97;
+            color: #d90000;
             font-weight: 600;
         }
         
         .tool-btn:hover {
-            background: #004a97;
+            background: #d90000;
             color: white;
             transform: translateY(-2px);
         }
@@ -867,7 +867,7 @@ TEMPLATE_DASHBOARD = '''
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">SCOTIABANK</div>
+            <div class="logo">GRUPO 4</div>
             <nav>
                 <a href="/">Inicio</a>
                 <a href="/blog">Blog</a>
@@ -900,7 +900,7 @@ TEMPLATE_DASHBOARD = '''
             </div>
         </div>
 
-        <h2 style="color: #004a97; margin-bottom: 20px;">Herramientas Disponibles</h2>
+        <h2 style="color: #d90000; margin-bottom: 20px;">Herramientas Disponibles</h2>
         <div class="tools-grid">
             <a href="/calculadora-prestamos" class="tool-btn">🧮 Calculadora de Préstamos</a>
             <a href="/cotizador-seguros" class="tool-btn">🛡️ Cotizador de Seguros</a>
@@ -918,13 +918,13 @@ TEMPLATE_CALCULADORA_PRESTAMOS = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Préstamos - Scotiabank</title>
+    <title>Calculadora de Préstamos - GRUPO 4</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; }
         
         header {
-            background: linear-gradient(135deg, #004a97 0%, #003d7a 100%);
+            background: linear-gradient(135deg, #d90000 0%, #a00000 100%);
             color: white;
             padding: 16px 0;
         }
@@ -943,7 +943,7 @@ TEMPLATE_CALCULADORA_PRESTAMOS = '''
             box-shadow: 0 2px 12px rgba(0,0,0,0.1);
         }
         
-        h1 { color: #004a97; margin-bottom: 30px; text-align: center; }
+        h1 { color: #d90000; margin-bottom: 30px; text-align: center; }
         
         .form-group {
             margin-bottom: 24px;
@@ -1004,14 +1004,14 @@ TEMPLATE_CALCULADORA_PRESTAMOS = '''
         }
         
         .result-item:last-child { border-bottom: none; }
-        .result-item strong { color: #004a97; }
+        .result-item strong { color: #d90000; }
         .result-item .value { font-weight: bold; color: #ff6b35; }
     </style>
 </head>
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">SCOTIABANK</div>
+            <div class="logo">GRUPO 4</div>
             <nav>
                 <a href="/">Inicio</a>
                 <a href="/dashboard">Dashboard</a>
@@ -1108,13 +1108,13 @@ TEMPLATE_COTIZADOR_SEGUROS = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cotizador de Seguros - Scotiabank</title>
+    <title>Cotizador de Seguros - GRUPO 4</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; }
         
         header {
-            background: linear-gradient(135deg, #004a97 0%, #003d7a 100%);
+            background: linear-gradient(135deg, #d90000 0%, #a00000 100%);
             color: white;
             padding: 16px 0;
         }
@@ -1133,7 +1133,7 @@ TEMPLATE_COTIZADOR_SEGUROS = '''
             box-shadow: 0 2px 12px rgba(0,0,0,0.1);
         }
         
-        h1 { color: #004a97; margin-bottom: 30px; text-align: center; }
+        h1 { color: #d90000; margin-bottom: 30px; text-align: center; }
         
         .form-group { margin-bottom: 24px; }
         
@@ -1179,7 +1179,7 @@ TEMPLATE_COTIZADOR_SEGUROS = '''
             margin-bottom: 20px;
         }
         
-        .quote-card h3 { color: #004a97; margin-bottom: 16px; }
+        .quote-card h3 { color: #d90000; margin-bottom: 16px; }
         
         .price-section {
             background: white;
@@ -1194,7 +1194,7 @@ TEMPLATE_COTIZADOR_SEGUROS = '''
             margin-bottom: 8px;
         }
         
-        .price-item strong { color: #004a97; }
+        .price-item strong { color: #d90000; }
         .price-item .value { font-weight: bold; color: #ff6b35; font-size: 18px; }
         
         .benefits {
@@ -1203,7 +1203,7 @@ TEMPLATE_COTIZADOR_SEGUROS = '''
             border-radius: 4px;
         }
         
-        .benefits h4 { color: #004a97; margin-bottom: 12px; font-size: 14px; }
+        .benefits h4 { color: #d90000; margin-bottom: 12px; font-size: 14px; }
         
         .benefit-item {
             display: flex;
@@ -1223,7 +1223,7 @@ TEMPLATE_COTIZADOR_SEGUROS = '''
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">SCOTIABANK</div>
+            <div class="logo">GRUPO 4</div>
             <nav>
                 <a href="/">Inicio</a>
                 <a href="/dashboard">Dashboard</a>
@@ -1329,13 +1329,13 @@ TEMPLATE_BLOG = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog - Scotiabank</title>
+    <title>Blog - GRUPO 4</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; }
         
         header {
-            background: linear-gradient(135deg, #004a97 0%, #003d7a 100%);
+            background: linear-gradient(135deg, #d90000 0%, #a00000 100%);
             color: white;
             padding: 16px 0;
         }
@@ -1347,7 +1347,7 @@ TEMPLATE_BLOG = '''
         
         .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
         
-        h1 { color: #004a97; text-align: center; margin-bottom: 40px; }
+        h1 { color: #d90000; text-align: center; margin-bottom: 40px; }
         
         .blog-grid {
             display: grid;
@@ -1385,7 +1385,7 @@ TEMPLATE_BLOG = '''
         }
         
         .blog-title {
-            color: #004a97;
+            color: #d90000;
             margin-bottom: 12px;
             font-size: 18px;
         }
@@ -1406,7 +1406,7 @@ TEMPLATE_BLOG = '''
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">SCOTIABANK</div>
+            <div class="logo">GRUPO 4</div>
             <nav>
                 <a href="/">Inicio</a>
                 <a href="/dashboard">Dashboard</a>
@@ -1441,13 +1441,13 @@ TEMPLATE_ARTICULO = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ articulo.titulo }} - Scotiabank</title>
+    <title>{{ articulo.titulo }} - GRUPO 4</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; }
         
         header {
-            background: linear-gradient(135deg, #004a97 0%, #003d7a 100%);
+            background: linear-gradient(135deg, #d90000 0%, #a00000 100%);
             color: white;
             padding: 16px 0;
         }
@@ -1473,7 +1473,7 @@ TEMPLATE_ARTICULO = '''
         }
         
         .article-title {
-            color: #004a97;
+            color: #d90000;
             font-size: 32px;
             margin-bottom: 16px;
         }
@@ -1495,7 +1495,7 @@ TEMPLATE_ARTICULO = '''
         .back-link {
             margin-top: 30px;
             display: inline-block;
-            color: #004a97;
+            color: #d90000;
             text-decoration: none;
             font-weight: 600;
         }
@@ -1504,7 +1504,7 @@ TEMPLATE_ARTICULO = '''
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">SCOTIABANK</div>
+            <div class="logo">GRUPO 4</div>
             <nav>
                 <a href="/">Inicio</a>
                 <a href="/blog">Blog</a>
@@ -1536,13 +1536,13 @@ TEMPLATE_SIMULADOR_INVERSIONES = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulador de Inversiones - Scotiabank</title>
+    <title>Simulador de Inversiones - GRUPO 4</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; }
         
         header {
-            background: linear-gradient(135deg, #004a97 0%, #003d7a 100%);
+            background: linear-gradient(135deg, #d90000 0%, #a00000 100%);
             color: white;
             padding: 16px 0;
         }
@@ -1561,7 +1561,7 @@ TEMPLATE_SIMULADOR_INVERSIONES = '''
             box-shadow: 0 2px 12px rgba(0,0,0,0.1);
         }
         
-        h1 { color: #004a97; margin-bottom: 30px; text-align: center; }
+        h1 { color: #d90000; margin-bottom: 30px; text-align: center; }
         
         .form-grid {
             display: grid;
@@ -1623,7 +1623,7 @@ TEMPLATE_SIMULADOR_INVERSIONES = '''
         }
         
         .summary-item:last-child { border-bottom: none; }
-        .summary-item strong { color: #004a97; }
+        .summary-item strong { color: #d90000; }
         .summary-item .value { font-weight: bold; color: #ff6b35; }
         
         .chart-container {
@@ -1647,7 +1647,7 @@ TEMPLATE_SIMULADOR_INVERSIONES = '''
         
         th {
             background: #f0f4f9;
-            color: #004a97;
+            color: #d90000;
             font-weight: 600;
         }
         
@@ -1657,7 +1657,7 @@ TEMPLATE_SIMULADOR_INVERSIONES = '''
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">SCOTIABANK</div>
+            <div class="logo">GRUPO 4</div>
             <nav>
                 <a href="/">Inicio</a>
                 <a href="/dashboard">Dashboard</a>
@@ -1705,7 +1705,7 @@ TEMPLATE_SIMULADOR_INVERSIONES = '''
                 </div>
                 
                 <div class="chart-container">
-                    <h3 style="color: #004a97; margin-bottom: 16px;">Proyección Año a Año</h3>
+                    <h3 style="color: #d90000; margin-bottom: 16px;">Proyección Año a Año</h3>
                     <table>
                         <thead>
                             <tr>
